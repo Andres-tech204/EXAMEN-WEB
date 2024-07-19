@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    color: #666;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.hobby {
+    text-align: center;
+}
+.project {
+    text-align: center;
+}
+.hobby, .project {
+    text-align: center;
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.hobby img, .project img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 10px; /* Espacio superior a la imagen */
+}
